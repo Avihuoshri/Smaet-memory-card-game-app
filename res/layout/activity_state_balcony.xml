@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".State_balcony">
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="נחל שילה - המרפסת של המדינה"
+        android:textSize="30dp"
+        android:textColor="#EF0505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" /><![CDATA[
+
+    " ומשמעו: בישול (חימום פסיבי) בשמש או דבר שנחשף רבות לשמש.
+
+במדרגת סלע  שבאתר  נמצאו 16 מתקנים עגולים שקוטרם הממוצע 2.3 מטרים, ועומקם עד כ־10 סנטימטרים. המשטחים נבנו בשיפוע קל, וצמוד לכל אחד מהם יש בור או גומה חצובה (עד 0.75 מ' קוטר, 0.4 מ' עומק.) דומה שתכלית הבורות לאסוף נוזלים מהמשטחים העגולים."
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114" />
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="398dp"
+        android:layout_height="477dp"
+        android:text="המרפסת של המדינה הוא מצפור בפאתי הישוב פדואל שבמערב בשומרון, ממנו ניתן להשקיף על כל רצועת החוף של מרכז ישראל, כאשר בימים עם ראות טובה ניתן לזהות את אשקלון ואשדוד בדרום ואת הכרמל בצפון. \n
+כינוי זה ניתן למקום על ידי ראש הממשלה לשעבר אריאל שרון, אשר נהג להביא לנקודה זו אישיפ בכירים מהארץ ומהעולם  על מנת להמחיש להם כמה צרה ישראל וכמה פגיעה אם תוותר על מערב השומרון אשר שולט על כל איזור גוש דן. \n
+באשר לנח שילה אשר ממוקם למרגלות תל שילה שהיה מיושב החל מתקופת הברונזה והיה המרכז הדתי של שבטי ישראל בתקופת ההתנחלות, בנחל שילה מרובים שרידי חקלאות הררית וחוות מכל התקופות ובעיקר מהתקופה הביזנטית ובינהם דיר קלעה ממערב לפדואל ומזולואום מזור מדרום לאלעד. \n
+מתקופת מרד בר כוכבא התגלו מערות מפלט בערק בטן ג'מיע ומערת עבוד, בגדתו הצפונית של הנחל נמצא מגדל אפק שעיקרו מבצר וכפר מבוצר מהתקופה הצלבנית והטורקית, גשר אבן נאה מהתקופה הטורקית שעליו עברה הדרך מיפו לטולכרם"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="310dp"
+        android:layout_height="116dp"
+        android:onClick="onClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973"
+        app:srcCompat="@drawable/balcony" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

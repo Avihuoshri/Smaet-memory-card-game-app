@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Metzuda_britit">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:textColor="#EF0505"
+        android:layout_height="wrap_content"
+        android:text="מצודה בריטית - נווה צוף"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" /><![CDATA[
+
+    " ומשמעו: בישול (חימום פסיבי) בשמש או דבר שנחשף רבות לשמש.
+
+במדרגת סלע  שבאתר  נמצאו 16 מתקנים עגולים שקוטרם הממוצע 2.3 מטרים, ועומקם עד כ־10 סנטימטרים. המשטחים נבנו בשיפוע קל, וצמוד לכל אחד מהם יש בור או גומה חצובה (עד 0.75 מ' קוטר, 0.4 מ' עומק.) דומה שתכלית הבורות לאסוף נוזלים מהמשטחים העגולים."
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114" />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="413dp"
+        android:layout_height="457dp"
+        android:text="בתחילת שנות ה-40 של המאה הקודמת בנו הבריטים בישראל שורה של תחנות משטרה שהכינוי שלהן היה  מצודת טגארט כחלק מההתמודדות עם הפרעות בארץ ישראל . \n
+שם המצודות נגזר מהמתכנן שלהם - סר צ'ארלס טגארט , שהיה קצין משטרה בריטי שהיה מומחה למיגור טרור .\n
+המצודה בנווה צוף נותרה עזובה לאחר מלחמת ששת הימים .  \n
+בשנת 1977 הגיע לכאן גרעין נווה צוף וייסד את היישוב. \n
+המצודה היא אחת המצודות היחידות מבין 63 המצודות אשר מחופה אבן ירושלמית. \n
+המצודה השתמרה עד היום ואת מרבית סימני ההיכר שלה עדיין ניתן לראות בשטח , כגון חומה היקפית שבשני קצותיה קבועים צריחים , דלתות ברזל גדולות וכבדות בכניסות , כראוי למבנה משטרה מכובד המצודה הכילה בעבר גם חדר גנרטור , מערכת כריזה וחדר משאבות מים . \n
+בנוסף ישנו מאגר מים אדיר מימדים הניזון מהמרזבים במצודה וכן ממערכת איסוף מים שנמצאת בגסעה הסמוכה"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="267dp"
+        android:layout_height="55dp"
+        android:onClick="onClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/push_here" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

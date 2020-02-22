@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mikta_abud">
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF0505"
+        android:text="מקטע עבוד"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" /><![CDATA[
+
+    " ומשמעו: בישול (חימום פסיבי) בשמש או דבר שנחשף רבות לשמש.
+
+במדרגת סלע  שבאתר  נמצאו 16 מתקנים עגולים שקוטרם הממוצע 2.3 מטרים, ועומקם עד כ־10 סנטימטרים. המשטחים נבנו בשיפוע קל, וצמוד לכל אחד מהם יש בור או גומה חצובה (עד 0.75 מ' קוטר, 0.4 מ' עומק.) דומה שתכלית הבורות לאסוף נוזלים מהמשטחים העגולים."
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114" />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="413dp"
+        android:layout_height="457dp"
+        android:text="מערות עבוד (עאבוד) , השוכנות בקרבת הכפר עאבוד השוכן על כביש חוצה בנימין שבדרום מערב השומרון , הן מערכת של מערכות קבורה חצובות ומפוארות \n
+בקרבת המערות , הנקראות מקטע עאבוד , נתגלתה מערת נטיפים קרסטית גדולה ומסועפת , המערה ממוקמת במדרון טרשי במרחק של כ-800 מטר דרומית - מערבית לכפר עאבוד \n
+בשנת 2002 פורסם לראשונה אודות המערה\n
+בריכוז של מערות הקבורה , הקברים בולטים בייחודם ובעיקר שני קברים מונומנטלים המזכירים בגודלם ובעיטורם קברים מפוארים בירושלים מימי היישוב מתקופת בית שני . \n
+באחד הקברים נמצאו שברי גלוסקמאות (ארונות שבהם היו שמים את עצמות המתים).\n
+בהתאם למיקום , המקבולות , והעיטורים ניתן להניח שהקברים שימשו אוכלוסייה יהודית בשלהי ימי בית שני ועד למרד בר כוכבא"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="191dp"
+        android:layout_height="142dp"
+        android:onClick="onVideoClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/abud_video" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="283dp"
+        android:layout_height="60dp"
+        android:onClick="onClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781"
+        app:srcCompat="@drawable/push_here" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

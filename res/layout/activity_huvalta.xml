@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Huvalta">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF0505"
+        android:text="אתר החובלתא"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" /><![CDATA[
+
+    " ומשמעו: בישול (חימום פסיבי) בשמש או דבר שנחשף רבות לשמש.
+
+במדרגת סלע  שבאתר  נמצאו 16 מתקנים עגולים שקוטרם הממוצע 2.3 מטרים, ועומקם עד כ־10 סנטימטרים. המשטחים נבנו בשיפוע קל, וצמוד לכל אחד מהם יש בור או גומה חצובה (עד 0.75 מ' קוטר, 0.4 מ' עומק.) דומה שתכלית הבורות לאסוף נוזלים מהמשטחים העגולים."
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114" />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="413dp"
+        android:layout_height="457dp"
+        android:text="באתר החובלתא נמצאת מערכת גדולה של עיגולים חצובים בסלע שלא נמצא כדוגמתה באף אתר בעולם \n
+ פרופסור זהר עמר הציע שמדובר במפעל ייחודי בעולם לייצור יין הליסטון שהו יין מתוק שהושאר בשמש על מנת להמתיק אותו וגם נקרא בגלל זה היין של השמש בתקופה הרומית \n שיטת הייצור אמנם נזכרת בספרות הרומית אך עד היום לא נמצא אתר ארכיאולוגי שמתאים לתיאור\n
+מוסכם על פרשנים שהכוונה היא ליין מתוק שתהליך ייצורו קשור לשמש \n
+מקור המילה הוא ביוונית הליאסטון ומשמעו בישול חימום פסיבי בשמש או דבר שנחשף רבות לשמש \n
+במדרגת סלע שבאתר נמצאו 16 מתקנים עגולים שקוטרם הממוצע הוא 2.3 מטרים ועומקם הוא עד כ 10 סנטימטרים \n
+ המשטחים נבנו בשיפוע קל וצמוד לכל אחד מהם יש בור או גומה חצובה (עד 0.75 מילימטר קוטר , 0.4 מילימטר עומק) \n
+דומה שתכלית הבורות לאסוף נוזלים מהמשטחים העגולים"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="352dp"
+        android:layout_height="109dp"
+        android:onClick="onClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/huvalta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

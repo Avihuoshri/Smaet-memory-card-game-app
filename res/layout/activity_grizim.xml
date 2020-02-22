@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Grizim">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF0505"
+        android:text="הר גריזים - הר ברכה"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="406dp"
+        android:layout_height="513dp"
+        android:text="הר גריזים הוא שמו של רכס ההרי גדול מדרום לעיר שכם. \n
+ההר הגבוה ברכס הוא הר גריזים המקראי שהיווה חלק ממעמד הר גריזים והר עיבל ועליו נשא יותם בן גדעון את משלו. \n
+פסגת ההר בגובה 881 מטרים מעל פני הים והוא מתנשא לגובה של 350 מטרים מעל סביבתו. \n
+ההר הוא חלק מהרי השומרון.\n
+המבנה הגאולוגי של הר גריזים הוא שעשה אותו למקור חשוב להזנת אקוות ההר המצויה מתחת להרי השומרון.\n
+מקובל לזהות את המקום שמכונה כיום הר גריזים כהר המקראי, אולם יש המזהים את ההר כהר דרומי יותר ליד יריחו או מזרחית יותר בהר כביר.\n
+הר גריזים הוא מקום מקודש לעדה השומרונית ומהווה בשבילה מוקד עלייה לרגל בשלושת הרגלים. \n
+משנת 1982 עד שנת 2000 התבצעו בהר חפירות ארכיאולוגיות והממצאים שנחשפו בחפירות מעידים על עיר בשטח של כ-20 דונם בה ישבו יותר מעשרת אלפים תושבים. \n
+ביולי 2012 נחנך בהר גריזים אתר תיירות המקיף שטח של 400 דונם וכולל את שרידי העיר ההלניסטית והתמחם הביזנטי."
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="359dp"
+        android:layout_height="41dp"
+        android:onClick="onClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862"
+        app:srcCompat="@drawable/push_here" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="351dp"
+        android:layout_height="64dp"
+        android:onClick="shomronim_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/shomronim_link" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

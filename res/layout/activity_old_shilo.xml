@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Old_shilo">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF0505"
+        android:text="שילה הקדומה"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="403dp"
+        android:layout_height="460dp"
+        android:text="שילה הייתה עיר ישראלית בנחלת שבט אפריים בתקופה שבין התנחלות השבטים בארץ כנען לבין הקמת ממלכת ישראל המאוחדת.
+בתקופה זו שימשה כמרכז דתי פולחני של שבטי ישראלוככל הנראה גם כבירתה בפועל .\n
+ע''פ הממצאים הארכיאולוגים שילו חרבה זמן מהלפי ששאול המלך ייסד את הממלכה ואחת ההשערות לזה היא הכישלון של שבטי ישראל להגן על בירתם הוא הגורם העיקרי לכינון שלטון המלוכה שהחליף את צורת הממשל .\n
+\n
+באתר שילה הקדומה תוכלו למצוא ממצאים ארכיאולוגיים מ : \n
+1. תקופת הברונזה \n
+2 תקופת הברזל \n
+3.התקופה הרומית  \n
+4. התקופה הביזנטית \n
+5. התקופה הערבית הקדומה\n
+\n באתר ישב עלי הכהן ששם גם מת לאחר שגילה כי שני ילדיו נהרגו בקרב"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:onClick="onClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@drawable/shilo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

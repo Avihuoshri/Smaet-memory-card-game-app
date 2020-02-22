@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Meir_fountain">
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF0505"
+        android:text="מעיין מאיר"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" /><![CDATA[
+
+    " ומשמעו: בישול (חימום פסיבי) בשמש או דבר שנחשף רבות לשמש.
+
+במדרגת סלע  שבאתר  נמצאו 16 מתקנים עגולים שקוטרם הממוצע 2.3 מטרים, ועומקם עד כ־10 סנטימטרים. המשטחים נבנו בשיפוע קל, וצמוד לכל אחד מהם יש בור או גומה חצובה (עד 0.75 מ' קוטר, 0.4 מ' עומק.) דומה שתכלית הבורות לאסוף נוזלים מהמשטחים העגולים."
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114" />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="413dp"
+        android:layout_height="457dp"
+        android:text="מעיין מאיר שנקרא גם מעיין הקשת הוא מעיין שכבה הזמוך להתנחלות חלמיש בהרי בנימין.\n
+מי המעיין ממערה חצובה בסלע, וזורמים לבריכה דרך שוקת גדולה.\n
+בשנת 2009 שיפצו בני נוער מנווה צוף את המעיין ומאז הוא מתוחזק על ידם. \n
+ליד המעיין הוקמה סככת צל והוצבו ספסלים ושולחנות פיקניק.\n
+מאז 2009 הפך למוקד סיכסוך בין תושבי דיר ניזאם ונבי סלאח לתושבי חלמיש.\n
+לטענת תושבי הכפרים המשך מאות שנים הם עשו שימוש במי המעיין, נמגד טוענים תושבי ההתנחלויות שהמעיין לא היה בשימוש עד שהם שיפצו אותו. \n
+בכל יום שישי מקיימים הפלסטינים ביחד עם פעילי שמאל הפגנות במקום"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="283dp"
+        android:layout_height="60dp"
+        android:onClick="onClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716"
+        app:srcCompat="@drawable/push_here" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="354dp"
+        android:layout_height="80dp"
+        android:onClick="hebrew_explenation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:srcCompat="@drawable/hebrew_exp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="340dp"
+        android:layout_height="79dp"
+        android:onClick="english_explenation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.483"
+        app:srcCompat="@drawable/english_exp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
